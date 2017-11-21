@@ -8,7 +8,8 @@ public class DefaultController {
 
     @GetMapping("/message")
     public String message() {
-        return "Greetings from Suhasini";
+        //TODO Get UserAgent header
+        return "My simple website";
     }
 
 }

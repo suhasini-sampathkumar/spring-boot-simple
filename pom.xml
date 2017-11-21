@@ -14,15 +14,32 @@
     </parent>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>com.51degrees</groupId>
-            <artifactId>device-detection</artifactId>
+            <artifactId>device-detection-core</artifactId>
             <version>3.2.16.4</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.51degrees</groupId>
+            <artifactId>device-detection-examples</artifactId>
+            <version>3.2.16.4</version>
+        </dependency>
+
+
     </dependencies>
 
     <properties>
